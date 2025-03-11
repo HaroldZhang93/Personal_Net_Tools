@@ -21,8 +21,8 @@ class Application(tk.Tk):
     def __init__(self):
         super().__init__()
         
-        self.title("网络配置管理器")
-        self.geometry("800x600")
+        self.title("网络配置管理器 by ZHN")
+        self.geometry("800x300")
         
         # 创建主框架
         self.main_frame = ttk.Frame(self)
